@@ -1,0 +1,12 @@
+source: ../templates/lib
+data:
+  name: uberlog-format
+  version: "0.1.0"
+  description: Json and human-readable uberlog formatters
+  keywords:
+    - uberlog
+    - log
+    - logger
+    - bunyan
+  author: Yaroslav Korotaev <yaroslav.korotaev@gmail.com>
+  repo: yaroslav-korotaev/uberlog-format

@@ -1,0 +1,33 @@
+{
+  "name": "uberlog-format",
+  "version": "0.1.0",
+  "description": "Json and human-readable uberlog formatters",
+  "keywords": [
+    "uberlog",
+    "log",
+    "logger",
+    "bunyan"
+  ],
+  "bugs": "https://github.com/yaroslav-korotaev/uberlog-format/issues",
+  "license": "MIT",
+  "author": "Yaroslav Korotaev <yaroslav.korotaev@gmail.com>",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": "yaroslav-korotaev/uberlog-format",
+  "scripts": {},
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "date-fns": "^2.29.1",
+    "inspectify": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.3",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "uberlog": "^0.1.1"
+  }
+}
